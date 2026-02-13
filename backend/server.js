@@ -8,8 +8,8 @@ const path = require('path');
 const MQTT_BROKER = 'mqtt://127.0.0.1';
 const TEAM_ID = 'year3d/team7';
 const MQTT_TOPIC_VS = `vision/${TEAM_ID}/movement`;
-const BACKEND_PORT = 8336;
-const FRONTEND_PORT = 9336;
+const BACKEND_PORT = 8322;
+const FRONTEND_PORT = 9322;
 const DASHBOARD_PATH = path.join(__dirname, '../dashboard/index.html');
 
 // --- MQTT Client ---
